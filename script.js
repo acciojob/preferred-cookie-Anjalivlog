@@ -1,5 +1,6 @@
 //your JS code here. If required.
 // Function to get a cookie by name
+// Function to get a cookie by name
 function getCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);
