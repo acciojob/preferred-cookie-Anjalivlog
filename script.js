@@ -26,7 +26,7 @@ function savePreferences(event) {
     const fontSize = document.getElementById('fontsize').value;
     const fontColor = document.getElementById('fontcolor').value;
 
-    document.cookie = `fontSize=${fontSize}; max-age=31536000; path=/`; // Ensure the cookie is available site-wide
+    document.cookie = `fontSize=${fontSize}; max-age=31536000; path=/`;
     document.cookie = `fontColor=${fontColor}; max-age=31536000; path=/`;
 
     document.documentElement.style.setProperty('--fontsize', `${fontSize}px`);
